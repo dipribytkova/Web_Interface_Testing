@@ -1,1 +1,1 @@
-[![Java CI with Gradle](https://github.com/<dipribytkova>/<Web_Interface_Testing>/actions/workflows/gradle.yml/badge.svg)](https://github.com/<dipribytkova>/<Web_Interface_Testing>/actions/workflows/gradle.yml)
+[![Build status](https://ci.appveyor.com/api/projects/status/a937nad500ft20by?svg=true)](https://ci.appveyor.com/project/dipribytkova/web-interface-testing)
