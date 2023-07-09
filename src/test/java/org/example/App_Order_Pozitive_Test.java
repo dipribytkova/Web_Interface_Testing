@@ -40,7 +40,7 @@ public class App_Order_Pozitive_Test{
         driver.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys("+79518624578");
         driver.findElement(By.cssSelector("[data-test-id=agreement]")).click();
         driver.findElement(By.cssSelector("button.button")).click();
-        String text = driver.findElement(By.cssSelector("[data-test-id=order-success]")).getText();
-        assertEquals ("  Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.", text);
+        String text = driver.findElement(By.cssSelector("[data-test-id=order-success]")).getText().trim();
+        assertEquals ("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.", text);
     }
 }
