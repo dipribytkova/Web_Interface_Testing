@@ -26,7 +26,7 @@ public class App_Order_Pozitive_Test{
         options.addArguments("--no-sandbox");
         options.addArguments("--headless");
         driver = new ChromeDriver(options);
-        driver.get("http://localhost:7777");
+        driver.get("http://localhost:9999");
     }
 
     @AfterEach
